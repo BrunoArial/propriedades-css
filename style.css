@@ -1,0 +1,103 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #ffffff;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        header {
+            background: #213642;
+            color: rgb(255, 255, 255);
+            padding: 7px 0;
+            text-align: left;
+        }
+        header h1 {
+            margin: 20px;
+        }
+        header p {
+            font-size: 20px;
+            margin: 20px;
+            margin-top: -18px;
+        }
+        section h1 {
+            text-align: left;
+            margin-top: 0px;
+            margin: 20px;
+            font-size: 40px;
+        }
+        section h2{
+            text-align: left;
+            margin: 30px;
+            margin-top: 0px;
+            font-size: 30px;
+            color:#213642
+        }
+        article {
+            background: rgb(202, 202, 202);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        article p {
+            font-size: 22px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .azul {
+            color: rgb(0, 0, 255);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 21px;
+        }
+        pre, code {
+            background: #ffffff;
+            color: #000000;
+            padding: -10px;
+            border-radius: 6px;
+            font-family: 'Fira Mono', 'Consolas', monospace;
+            font-size: 17px;
+            display: block;
+            margin: 20px 10px;
+        }
+        pre {
+            border-left: 4px solid #213642;
+            padding-left: 10px;
+            max-width: 1000px;
+            width: 100%;
+        }
+        .nohtml {
+            color: #000;
+            font-family: 'Fira Mono', 'Consolas', monospace;
+            font-size: 17px;
+            display: block;
+            margin: 20px 10px;
+        }
+        .nocss {
+            color: #000;
+            font-family: 'Fira Mono', 'Consolas', monospace;
+            font-size: 17px;
+            display: block;
+            margin: 20px 10px;
+        }
+        .fonte {
+            font-family: "Times New Roman", Times, serif;
+        }
+        .fontsize {
+            font-size: 10px;
+        }
+        .fontsize2 {
+            font-size: 30px;
+        }
+        .exemplo-center {
+    text-align: center;
+}
+        .exemplo-bg {
+    background-color: yellow;
+    width: 700px;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>PROPRIEDADES DO CSS </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>PROPRIEDADES DO CSS </h1>
+        <p>Exemplos de propriedades CSS</p>
+    </header>
+
+    <main>
+        <section>
+            <h1>• Propriedades de Texto e Fonte</h1>
+            <article>
+                <h2> • Color </h2>
+                <p>A propriedade <strong>'color'</strong> define a cor do texto de um elemento HTML, pode ser definido por valor hexadecimal (HEX), RGB, nome da cor e todos outros sistemas de cores existentes</p>
+                <p class="azul">Este é um exemplo de texto definido como <strong>'blue'</strong></p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>
+&lt;p class="azul"&gt;Este é um exemplo de texto definido como 'blue'&lt;/p&gt;
+                </code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>
+.azul {
+    color: blue;
+}
+                </code></pre>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2> •  Font-family (Família da fonte)</h2>
+                <p>A propriedade <strong>'Font-family'</strong> especifica a fonte a ser usada para o texto</p>
+                <p class="fonte">Este é um exemplo de texto definido com a fonte <strong>'Times new roman'</strong></p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>
+&lt;p class="fonte"&gt;Este é um exemplo de texto definido com a fonte 'Times new roman'&lt;/p&gt;
+                </code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>
+.fonte {
+    font-family: "Times New Roman", Times, serif;
+}
+                </code></pre>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2> •  Font-size</h2>
+                <p>A propriedade <strong>'Font-size'</strong> controla o tamanho do texto, pode ser definido em pixels, ems, rems, porcentagem, etc.</p>
+                <p class="fontsize">Este é um exemplo de texto definido com o tamanho de 10 pixels</p>
+                <p class="fontsize2">Este é um exemplo de texto definido com o tamanho de 30 pixels</p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>
+&lt;p class="fontsize"&gt;Este é um exemplo de texto definido com o tamanho de 10 pixels&lt;/p&gt;
+&lt;p class="fontsize2"&gt;Este é um exemplo de texto definido com o tamanho de 30 pixels&lt;/p&gt;
+                </code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>
+.fontsize {
+    font-size: 10px;
+}
+.fontsize2 {
+    font-size: 30px;
+}
+                </code></pre>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2> •  Text-align (Alinhamento de Texto)</h2>
+                <p>A propriedade <strong>'text-align'</strong> controla o alinhamento horizontal do texto dentro de seu elemento container. Os valores mais comuns são <strong>left</strong> (esquerda), <strong>center</strong> (centro), <strong>right</strong> (direita) e <strong>justify</strong> (justificado).</p>
+                <p class="exemplo-center">Este texto está centralizado com <strong>text-align: center;</strong></p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>
+&lt;p class="exemplo-center"&gt;Este texto está centralizado com 'text-align: center;'&lt;/p&gt;
+    </code></pre>
+    <p class="nocss"><strong>[style.css]</strong></p>
+    <pre><code>
+.exemplo-center {
+    text-align: center;
+}
+    </code></pre>
+            </article>
+        </section>
+        <section>
+            <h1>• Propriedades de Fundo (Background)</h1>
+            <article>
+                <h2> • Background-color (Cor de Fundo) </h2>
+                <p>A propriedade <strong>'background-color'</strong> define a cor de fundo de um elemento. Pode ser definida por valor hexadecimal (HEX), RGB, nome da cor, entre outros.</p>
+                <p class="exemplo-bg">Este texto está com fundo amarelo usando <strong>background-color: yellow;</strong></p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>&lt;p class="exemplo-bg"&gt;Este texto está com fundo amarelo usando 'background-color: yellow;'&lt;/p&gt;</code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>
+.exemplo-bg {
+    background-color: yellow;
+}
+</code></pre>
+            </article>
+        </section>
+<section>
+    <h1>• Propriedades de Caixa e Posicionamento</h1>
+    <article>
+        <h2> • Margin (Margem Externa) </h2>
+        <p>A propriedade <strong>'margin'</strong> define o espaço externo ao redor de um elemento.</p>
+        <p class="exemplo-margin">Este parágrafo possui uma margem de 40px.</p>
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>&lt;p class="exemplo-margin"&gt;Este parágrafo possui uma margem de 40px.&lt;/p&gt;</code></pre>
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>.exemplo-margin {
+    margin: 40px;
+}</code></pre>
+    </article>
+
+    <article>
+        <h2> • Padding (Preenchimento Interno) </h2>
+        <p>A propriedade <strong>'padding'</strong> define o espaço interno entre o conteúdo e a borda de um elemento.</p>
+        <p class="exemplo-padding">Este parágrafo possui um padding de 30px.</p>
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>&lt;p class="exemplo-padding"&gt;Este parágrafo possui um padding de 30px.&lt;/p&gt;</code></pre>
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>.exemplo-padding {
+    padding: 30px;
+    background: #e0e0e0;
+}</code></pre>
+    </article>
+
+    <article>
+        <h2> • Border (Borda) </h2>
+        <p>A propriedade <strong>'border'</strong> define a borda ao redor de um elemento.</p>
+        <p class="exemplo-border">Este parágrafo possui uma borda de 2px sólida azul.</p>
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>&lt;p class="exemplo-border"&gt;Este parágrafo possui uma borda de 2px sólida azul.&lt;/p&gt;</code></pre>
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>.exemplo-border {
+    border: 2px solid blue;
+    padding: 10px;
+}</code></pre>
+    </article>
+
+    <article>
+        <h2> • Width e Height (Largura e Altura) </h2>
+        <p>As propriedades <strong>'width'</strong> e <strong>'height'</strong> definem a largura e altura de um elemento.</p>
+        <div class="exemplo-wh">Este bloco tem 200px de largura e 60px de altura.</div>
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>&lt;div class="exemplo-wh"&gt;Este bloco tem 200px de largura e 60px de altura.&lt;/div&gt;</code></pre>
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>.exemplo-wh {
+    width: 200px;
+    height: 60px;
+    background: #b3d9ff;
+    text-align: center;
+    line-height: 60px;
+}</code></pre>
+    </article>
+
+    <article>
+        <h2> • Display (Exibição) </h2>
+        <p>A propriedade <strong>'display'</strong> controla como um elemento é exibido na página. Os valores mais comuns são <strong>block</strong>, <strong>inline</strong> e <strong>inline-block</strong>.</p>
+        <span class="exemplo-inline">Span 1</span>
+        <span class="exemplo-inline">Span 2</span>
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>&lt;span class="exemplo-inline"&gt;Span 1&lt;/span&gt;
+&lt;span class="exemplo-inline"&gt;Span 2&lt;/span&gt;</code></pre>
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>.exemplo-inline {
+    display: inline-block;
+    background: #ffd966;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}</code></pre>
+    </article>
+
+    <article>
+        <h2> • Position (Posicionamento) e Top, Right, Bottom, Left </h2>
+        <p>A propriedade <strong>'position'</strong> define o método de posicionamento de um elemento. Os valores mais comuns são <strong>static</strong>, <strong>relative</strong>, <strong>absolute</strong> e <strong>fixed</strong>. As propriedades <strong>top</strong>, <strong>right</strong>, <strong>bottom</strong> e <strong>left</strong> ajustam a posição do elemento quando <strong>position</strong> é diferente de static.</p>
+        <div class="exemplo-pos-container">
+            <div class="exemplo-pos">Este bloco está posicionado 20px da esquerda e 10px do topo.</div>
+        </div>
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>&lt;div class="exemplo-pos-container"&gt;
+    &lt;div class="exemplo-pos"&gt;Este bloco está posicionado 20px da esquerda e 10px do topo.&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>.exemplo-pos-container {
+    position: relative;
+    height: 80px;
+    background: #f0f0f0;
+}
+.exemplo-pos {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: #ffb3b3;
+    padding: 10px 20px;
+    border-radius: 5px;
+}</code></pre>
+    </article>
+</section>
+    </main>
+</body>
+</html>
