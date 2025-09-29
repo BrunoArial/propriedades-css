@@ -7,13 +7,13 @@
 </head>
 
 <body>
-    <header>
+    <header class="site-header">
         <h1>PROPRIEDADES DO CSS </h1>
         <p>Exemplos e aplicações das propriedades CSS</p>
     </header>
-<hr>
-    <main>
-        <section>
+    <hr>
+    <main class="site-main">
+        <section class="intro-section">
             <h1>• Propriedades de Texto e Fonte</h1>
             <h2> • Color </h2>
             <p>A propriedade <strong>'color'</strong> define a cor do texto de um elemento HTML, pode ser definido por valor hexadecimal (HEX), RGB, nome da cor e todos outros sistemas de cores existentes</p>
@@ -31,10 +31,10 @@
                 </code></pre>
             </article>
         </section>
-<hr>
+        <hr>
         <section>
             <h2> •  Font-family (Família da fonte)</h2>
-                <p>A propriedade <strong>'Font-family'</strong> especifica a fonte a ser usada para o texto</p>
+            <p>A propriedade <strong>'Font-family'</strong> especifica a fonte a ser usada para o texto</p>
             <article>
                 <p class="fonte">Este é um exemplo de texto definido com a fonte <strong>'Times new roman'</strong></p>
                 <p class="nohtml"><strong>[index.html]</strong></p>
@@ -49,7 +49,7 @@
                 </code></pre>
             </article>
         </section>
-<hr>
+        <hr>
         <section>
             <h2> •  Font-size</h2>
             <p>A propriedade <strong>'Font-size'</strong> controla o tamanho do texto, pode ser definido em pixels, ems, rems, porcentagem, etc.</p>
@@ -72,49 +72,49 @@
                 </code></pre>
             </article>
         </section>
-<hr>
+        <hr>
         <section>
             <h2> •  Text-align (Alinhamento de Texto)</h2>
-                <p>A propriedade <strong>'text-align'</strong> controla o alinhamento horizontal do texto dentro de seu elemento container. Os valores mais comuns são <strong>center</strong> (centro), <strong>left</strong> (esquerda), <strong>right</strong> (direita) e <strong>justify</strong> (justificado).</p>
+            <p>A propriedade <strong>'text-align'</strong> controla o alinhamento horizontal do texto dentro de seu elemento container. Os valores mais comuns são <strong>center</strong> (centro), <strong>left</strong> (esquerda), <strong>right</strong> (direita) e <strong>justify</strong> (justificado).</p>
             <article>
                 <p class="exemplo-center">Este texto está centralizado com <strong>text-align: center;</strong></p>
                 <p class="nohtml"><strong>[index.html]</strong></p>
                 <pre><code>
 &lt;p class="exemplo-center"&gt;Este texto está centralizado com 'text-align: center;'&lt;/p&gt;
     </code></pre>
-    <p class="nocss"><strong>[style.css]</strong></p>
-    <pre><code>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>
 .exemplo-center {
     text-align: center;
 }
     </code></pre>
-<hr class="separador-codigo">
-    <p class="exemplo-left">Este texto está alinhado à esquerda com <strong>'text-align: left'</strong>;</p>
-    <p class="nohtml"><strong>[index.html]</strong></p>
-    <pre><code>
+                <hr class="separador-codigo">
+                <p class="exemplo-left">Este texto está alinhado à esquerda com <strong>'text-align: left'</strong>;</p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>
 &lt;p class="exemplo-left"&gt;Este texto está alinhado à esquerda com 'text-align: left';&lt;/p&gt;
     </code></pre>
-    <p class="nocss"><strong>[style.css]</strong></p>
-    <pre><code>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>
 .exemplo-left {
     text-align: left;
 }
     </code></pre>
-<hr class="separador-codigo">
-    <p class="exemplo-right">Este texto está alinhado à direita com <strong>'text-align: right'</strong>;</p>
-    <p class="nohtml"><strong>[index.html]</strong></p>
-    <pre><code>
+                <hr class="separador-codigo">
+                <p class="exemplo-right">Este texto está alinhado à direita com <strong>'text-align: right'</strong>;</p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>
 &lt;p class="exemplo-right"&gt;Este texto está alinhado à direita com 'text-align: right';&lt;/p&gt;
     </code></pre>
-    <p class="nocss"><strong>[style.css]</strong></p>
-    <pre><code>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>
 .exemplo-right {
     text-align: right;
 }
     </code></pre>
             </article>
         </section>
-<hr>
+        <hr>
         <section>
             <h1>• Propriedades de Fundo (Background)</h1>
             <h2> • Background-color (Cor de Fundo) </h2>
@@ -131,145 +131,243 @@
 </code></pre>
             </article>
         </section>
-<hr>
-<section>
-    <h1>• Propriedades de Caixa e Posicionamento</h1>
-    <h2> • Margin (Margem Externa) </h2>
-    <p>A propriedade <strong>'margin'</strong> define o espaço externo ao redor de um elemento.</p>
-    <article>
-        <p class="exemplo-margin">Este parágrafo possui uma margem de 40px.</p>
-        <p class="nohtml"><strong>[index.html]</strong></p>
-        <pre><code>&lt;p class="exemplo-margin"&gt;Este parágrafo possui uma margem de 40px.&lt;/p&gt;</code></pre>
-        <p class="nocss"><strong>[style.css]</strong></p>
-        <pre><code>.exemplo-margin {
+        <hr>
+        <section>
+            <h1>• Propriedades de Caixa e Posicionamento</h1>
+            <h2> • Margin (Margem Externa) </h2>
+            <p>A propriedade <strong>'margin'</strong> define o espaço externo ao redor de um elemento.</p>
+            <article>
+                <p class="exemplo-margin">Este parágrafo possui uma margem de 40px.</p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>&lt;p class="exemplo-margin"&gt;Este parágrafo possui uma margem de 40px.&lt;/p&gt;</code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>.exemplo-margin {
     margin: 40px;
 }</code></pre>
-    </article>
-<hr>
-    <h2> • Padding (Preenchimento Interno) </h2>
-    <p>A propriedade <strong>'padding'</strong> define o espaço interno entre o conteúdo e a borda de um elemento.</p>
-    <article>
-        <p class="exemplo-padding">Este parágrafo possui um padding de 30px.</p>
-        <p class="nohtml"><strong>[index.html]</strong></p>
-        <pre><code>&lt;p class="exemplo-padding"&gt;Este parágrafo possui um padding de 30px.&lt;/p&gt;</code></pre>
-        <p class="nocss"><strong>[style.css]</strong></p>
-        <pre><code>.exemplo-padding {
+            </article>
+            <hr>
+            <h2> • Padding (Preenchimento Interno) </h2>
+            <p>A propriedade <strong>'padding'</strong> define o espaço interno entre o conteúdo e a borda de um elemento.</p>
+            <article>
+                <p class="exemplo-padding">Este parágrafo possui um padding de 30px.</p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>&lt;p class="exemplo-padding"&gt;Este parágrafo possui um padding de 30px.&lt;/p&gt;</code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>.exemplo-padding {
     padding: 30px;
     background: #e0e0e0;
 }</code></pre>
-    </article>
-<hr>
-    <h2> • Border (Borda) </h2>
-    <p>A propriedade <strong>'border'</strong> define a borda ao redor de um elemento.</p>
-    <article>
-        <p class="exemplo-border">Este parágrafo possui uma borda de 2px sólida azul.</p>
-        <p class="nohtml"><strong>[index.html]</strong></p>
-        <pre><code>&lt;p class="exemplo-border"&gt;Este parágrafo possui uma borda de 2px sólida azul.&lt;/p&gt;</code></pre>
-        <p class="nocss"><strong>[style.css]</strong></p>
-        <pre><code>.exemplo-border {
+            </article>
+            <hr>
+            <h2> • Border (Borda) </h2>
+            <p>A propriedade <strong>'border'</strong> define a borda ao redor de um elemento.</p>
+            <article>
+                <p class="exemplo-border">Este parágrafo possui uma borda de 2px sólida azul.</p>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>&lt;p class="exemplo-border"&gt;Este parágrafo possui uma borda de 2px sólida azul.&lt;/p&gt;</code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>.exemplo-border {
     border: 2px solid blue;
     padding: 10px;
 }</code></pre>
-    </article>
-<hr>
-    <h2> • Width e Height (Largura e Altura) </h2>
-    <p>As propriedades <strong>'width'</strong> e <strong>'height'</strong> definem a largura e altura de um elemento.</p>
-    <article>
-        <div class="exemplo-wh">Este bloco tem 200px de largura e 60px de altura.</div>
-        <p class="nohtml"><strong>[index.html]</strong></p>
-        <pre><code>&lt;div class="exemplo-wh"&gt;Este bloco tem 200px de largura e 60px de altura.&lt;/div&gt;</code></pre>
-        <p class="nocss"><strong>[style.css]</strong></p>
-        <pre><code>.exemplo-wh {
-    width: 200px;
-    height: 60px;
-    background: #b3d9ff;
-    text-align: center;
-    line-height: 60px;
+            </article>
+            <hr>
+            <h2> • Width e Height (Largura e Altura) </h2>
+            <p>As propriedades <strong>'width'</strong> e <strong>'height'</strong> definem a largura e altura de um elemento.</p>
+            <article>
+                <div class="exemplo-wh">Este bloco tem 200px de largura e 60px de altura.</div>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>&lt;div class="exemplo-wh"&gt;Este bloco tem 220px de largura e 70px de altura.&lt;/div&gt;</code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>.exemplo-wh {
+    width: 220px;
+    height: 70px;
+    background-color: #ff5733;
 }</code></pre>
-    </article>
-<hr>
-    <h2> • Display (Exibição) </h2>
-    <p>A propriedade <strong>'display'</strong> controla como um elemento é exibido na página. Os valores mais comuns são <strong>block</strong>, <strong>inline</strong> e <strong>inline-block</strong>.</p>
-    <article>
-    <p>O valor <strong>'block'</strong>faz com que o elemento ocupe toda a largura disponível (mesmo que o conteúdo seja pequeno).</p>
-        <span class="exemplo-block">Span 1</span>
-        <span class="exemplo-block">Span 2</span>
-        <p class="nohtml"><strong>[index.html]</strong></p>
-        <pre><code>&lt;span class="exemplo-inline"&gt;Span 1&lt;/span&gt;
+            </article>
+            <hr>
+            <h2> • Display (Exibição) </h2>
+            <p>A propriedade <strong>'display'</strong> controla como um elemento é exibido na página. Os valores mais comuns são <strong>block</strong>, <strong>inline</strong> e <strong>inline-block</strong>.</p>
+            <article>
+                <p>O valor <strong>'block'</strong>faz com que o elemento ocupe toda a largura disponível (mesmo que o conteúdo seja pequeno).</p>
+                <span class="exemplo-block">Span 1</span>
+                <span class="exemplo-block">Span 2</span>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>&lt;span class="exemplo-inline"&gt;Span 1&lt;/span&gt;
 &lt;span class="exemplo-inline"&gt;Span 2&lt;/span&gt;</code></pre>
-        <p class="nocss"><strong>[style.css]</strong></p>
-        <pre><code>.exemplo-block {
-    display: block;
-    background: #ffd966;
-    padding: 5px 15px;
-    margin: 5px;
-    border-radius: 5px;
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>.exemplo-block {
+    display: inline;
+    background-color: #ff5733;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
 }</code></pre>
-<hr class="separador-codigo">
-        <p>O valor <strong>'inline'</strong> faz com que o elemento ocupe apenas o espaço necessário para seu conteúdo, permitindo que outros elementos fiquem na mesma linha.</p>
-        <span class="exemplo-inline">Span 1</span>
-        <span class="exemplo-inline">Span 2</span>
-        <p class="nohtml"><strong>[index.html]</strong></p>
-        <pre><code>&lt;span class="exemplo-inline"&gt;Span 1&lt;/span&gt;</code></pre>
-        <p class="nocss"><strong>[style.css]</strong></p>
-        <pre><code>.exemplo-inline {
+                <hr class="separador-codigo">
+                <p>O valor <strong>'inline'</strong> faz com que o elemento ocupe apenas o espaço necessário para seu conteúdo, permitindo que outros elementos fiquem na mesma linha.</p>
+                <span class="exemplo-inline">Span 1</span>
+                <span class="exemplo-inline">Span 2</span>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>&lt;span class="exemplo-inline"&gt;Span 1&lt;/span&gt;</code></pre>
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>.exemplo-inline {
     display: inline;
     background-color: #ff5733;
     color: white;
     padding: 10px;
     margin: 5px;
         }</code></pre>
-<hr class="separador-codigo">
-        <p class="esp">O valor <strong>'inline-block'</strong> combina características de <strong>block</strong> e <strong>inline</strong>, permitindo definir largura e altura, mas mantendo elementos na mesma linha.</p>
-        <span class="exemplo-inline-block">Span 1</span>
-        <span class="exemplo-inline-block">Span 2</span>
-        <p class="nohtml"><strong>[index.html]</strong></p>
-        <pre><code>&lt;span class="exemplo-inline-block"&gt;Span 1&lt;/span&gt;
+                <hr class="separador-codigo">
+                <p class="esp">O valor <strong>'inline-block'</strong> combina características de <strong>block</strong> e <strong>inline</strong>, permitindo definir largura e altura, mas mantendo elementos na mesma linha.</p>
+                <span class="exemplo-inline-block">Span 1</span>
+                <span class="exemplo-inline-block">Span 2</span>
+                <p class="nohtml"><strong>[index.html]</strong></p>
+                <pre><code>&lt;span class="exemplo-inline-block"&gt;Span 1&lt;/span&gt;
 &lt;span class="exemplo-inline-block"&gt;Span 2&lt;/span&gt;</code></pre>
-        <p class="nocss"><strong>[style.css]</strong></p>
-        <pre><code>.exemplo-inline-block {
+                <p class="nocss"><strong>[style.css]</strong></p>
+                <pre><code>.exemplo-inline-block {
     display: inline-block;
-    background-color: #33cc33;
+    background-color: #ff5733;
     color: white;
     padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
+    margin: 8px 0;
 }</code></pre>
-    </article>
-<hr>
-    <h2> • Position (Posicionamento) e Top, Right, Bottom, Left </h2>
-    <p>A propriedade <strong>'position'</strong> define o método de posicionamento de um elemento. Os valores mais comuns são <strong>static</strong>, <strong>relative</strong>, <strong>absolute</strong> e <strong>fixed</strong>. As propriedades <strong>top</strong>, <strong>right</strong>, <strong>bottom</strong> e <strong>left</strong> ajustam a posição do elemento quando <strong>position</strong> é diferente de static.</p>
+            </article>
+            <hr>
+            <section>
+    <h2> • Position (Posicionamento) </h2>
+    <p>
+        A propriedade <strong>'position'</strong> define como um elemento é posicionado na página. 
+        Os valores mais comuns são <strong>static</strong>, <strong>relative</strong>, <strong>absolute</strong>, 
+        <strong>fixed</strong> e <strong>sticky</strong>.  
+        Quando o valor é diferente de <strong>static</strong>, podemos usar também 
+        as propriedades <strong>top</strong>, <strong>right</strong>, <strong>bottom</strong> e <strong>left</strong> 
+        para ajustar sua posição.
+    </p>
+
     <article>
-        <div class="exemplo-pos-container">
-            <div class="exemplo-pos">Este bloco está posicionado 20px da esquerda e 10px do topo.</div>
-        </div>
+        <p>O valor <strong>'static'</strong> é o padrão. O elemento segue o fluxo normal da página, sem deslocamentos especiais.</p>
+        <div class="exemplo-static">Este bloco está com <strong>position: static</strong>.</div>
+
         <p class="nohtml"><strong>[index.html]</strong></p>
-        <pre><code>&lt;div class="exemplo-pos-container"&gt;
-    &lt;div class="exemplo-pos"&gt;Este bloco está posicionado 20px da esquerda e 10px do topo.&lt;/div&gt;
-&lt;/div&gt;</code></pre>
+        <pre><code>
+&lt;div class="exemplo-static"&gt;Este bloco está com 'position: static'.&lt;/div&gt;
+        </code></pre>
+
         <p class="nocss"><strong>[style.css]</strong></p>
-        <pre><code>.exemplo-pos-container {
-    position: relative;
-    height: 100px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    margin-top: 20px;
+        <pre><code>
+.exemplo-static {
+    position: static;
+    background: #ff5733;
+    color: white;
+    padding: 14px;
 }
-.exemplo-pos {
+        </code></pre>
+    </article>
+
+    <article>
+        <p>O valor <strong>'relative'</strong> posiciona o elemento em relação à sua posição original, permitindo mover com <strong>top, left, right, bottom</strong>.</p>
+        <div class="exemplo-relative">Este bloco foi movido 20px para baixo e 30px para a direita.</div>
+
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>
+&lt;div class="exemplo-relative"&gt;Este bloco foi movido 20px para baixo e 30px para a direita.&lt;/div&gt;
+        </code></pre>
+
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>
+.exemplo-relative {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background: #2962FF;
+    color: white;
+    padding: 14px;
+}
+        </code></pre>
+    </article>
+
+    <article>
+        <p>O valor <strong>'absolute'</strong> posiciona o elemento em relação ao ancestral com <strong>position: relative</strong> (ou ao &lt;body&gt; se nenhum existir).</p>
+        <div class="exemplo-abs-container">
+            <div class="exemplo-absolute">Este bloco está preso ao container.</div>
+        </div>
+
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>
+&lt;div class="exemplo-abs-container"&gt;
+    &lt;div class="exemplo-absolute"&gt;Este bloco está preso ao container.&lt;/div&gt;
+&lt;/div&gt;
+        </code></pre>
+
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>
+.exemplo-abs-container {
+    position: relative;
+    height: 120px;
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+.exemplo-absolute {
     position: absolute;
     top: 10px;
-    left: 20px;
-    background-color: #ffb3b3;
+    right: 20px;
+    background: #ff5733;
     color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-}</code></pre>
+    padding: 12px;
+}
+        </code></pre>
+    </article>
+
+    <article>
+        <p>O valor <strong>'fixed'</strong> fixa o elemento na tela, mesmo ao rolar a página.</p>
+        <img class="media-fixed" src="fixedd.png" alt="Exemplo de posição fixed">
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>
+&lt;div class="exemplo-fixed"&gt;Eu fico fixo no canto inferior direito!&lt;/div&gt;
+        </code></pre>
+
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>
+.exemplo-fixed {
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    background: #2962FF;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+}
+        </code></pre>
+    </article>
+
+    <article>
+        <p>O valor <strong>'sticky'</strong> mistura <strong>relative</strong> e <strong>fixed</strong>: o elemento se move normalmente, mas fica "grudado" em um ponto da rolagem.</p>
+        <div class="exemplo-sticky">Eu fico grudado no topo quando você rola a página.</div>
+
+        <p class="nohtml"><strong>[index.html]</strong></p>
+        <pre><code>
+&lt;div class="exemplo-sticky"&gt;Eu fico grudado no topo quando você rola a página.&lt;/div&gt;
+        </code></pre>
+
+        <p class="nocss"><strong>[style.css]</strong></p>
+        <pre><code>
+.exemplo-sticky {
+    position: sticky;
+    top: 0;
+    background: #ff5733;
+    color: white;
+    padding: 12px;
+}
+        </code></pre>
     </article>
 </section>
-<hr>
-<footer>
-        <p>&copy; 2025 Todos os direitos reservados.</p>
-</footer>
+
+        <hr>
+        <footer class="site-footer">
+            <p>&copy; 2025 Todos os direitos reservados.</p>
+        </footer>
     </main>
 </body>
 </html>
