@@ -1,28 +1,59 @@
 body {
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: #ffffff;
-            color: #222;
+            font-family: 'Inter', Arial, sans-serif;
+            font-size: 20px;
+            background: #F9FAFB;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
+    }
+        .espdisplay {
+            text-align: justify;
+            margin: 20px;
+            margin-top: 10px;
         }
-
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #E5E7EB; 
+            margin: 2rem 0;
+            border-radius: 2px;
+        }
+        .separador-codigo {
+            border: none;
+            height: 2px;
+            background-color: #000000; 
+            border-radius: 2px;
+        }
+        body h1 {
+            font-family: 'Poppins', sans-serif;
+            color: #2962FF
+        }
+        section h2 {
+            font-family: 'Poppins', sans-serif;
+            color: #374151
+        }
+        section p {
+            margin: 40px
+        }
         header {
-            background: #213642;
+            background: #2962FF;
             color: rgb(255, 255, 255);
             padding: 7px 0;
-            text-align: left;
+            text-align: center;
         }
         header h1 {
-            margin: 20px;
+            margin: 5px;
+            color:#ffffff;
+            font-size: 45px;
+            font-family: 'Poppins', sans-serif;
         }
         header p {
-            font-size: 20px;
+            font-size: 15px;
             margin: 20px;
-            margin-top: -18px;
+            margin-top: 10px;
         }
         section h1 {
             text-align: left;
@@ -35,10 +66,9 @@ body {
             margin: 30px;
             margin-top: 0px;
             font-size: 30px;
-            color:#213642
         }
         article {
-            background: rgb(202, 202, 202);
+            background: #E5E7EB;
             margin: 20px;
             padding: 20px;
             border-radius: 8px;
@@ -47,7 +77,7 @@ body {
         article p {
             font-size: 22px;
             line-height: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             font-family: 'Segoe UI', Arial, sans-serif;
         }
         .azul {
@@ -57,7 +87,7 @@ body {
         }
         pre, code {
             background: #ffffff;
-            color: #000000;
+            color:  #374151;
             padding: -10px;
             border-radius: 6px;
             font-family: 'Fira Mono', 'Consolas', monospace;
@@ -97,7 +127,80 @@ body {
         .exemplo-center {
     text-align: center;
 }
+        .exemplo-left {
+    text-align: left;
+        }
+        .exemplo-right {
+    text-align: right;
+        }
         .exemplo-bg {
     background-color: yellow;
     width: 700px;
 }
+        .exemplo-margin {
+    margin: 40px;
+}
+        .exemplo-padding {
+    padding: 30px;
+    background-color: #e0e0e0;
+}
+        .exemplo-border {
+    border: 2px solid blue;
+}
+    .exemplo-wh {
+    width: 200px;
+    height: 60px;
+    background-color: #ff5733;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .exemplo-block {
+    display: block;
+    background-color: #ff5733;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+    .exemplo-inline {
+    display: inline;
+    background-color: #ff5733;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+    .exemplo-inline-block {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+    .exemplo-pos-container {
+    position: relative;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+    .exemplo-pos {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+        footer {
+            background: #2962FF;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
